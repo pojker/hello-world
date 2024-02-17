@@ -15,3 +15,14 @@ Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
 
 Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
 Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
+
+string greeting = "    Hello World!    ";
+string trimmedGreeting = greeting.Trim();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+# Trim start and end:
+# string trimmedGreeting = greeting.TrimStart();
+# Console.WriteLine($"[{trimmedGreeting}]");
+#
+# trimmedGreeting = greeting.TrimEnd();
+# Console.WriteLine($"[{trimmedGreeting}]");
